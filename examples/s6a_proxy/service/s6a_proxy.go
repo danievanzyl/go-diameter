@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fiorix/go-diameter/v4/diam"
-	"github.com/fiorix/go-diameter/v4/diam/avp"
-	"github.com/fiorix/go-diameter/v4/diam/datatype"
-	"github.com/fiorix/go-diameter/v4/diam/dict"
-	"github.com/fiorix/go-diameter/v4/diam/sm"
-	"github.com/fiorix/go-diameter/v4/examples/s6a_proxy/protos"
+	"github.com/danievanzyl/go-diameter/v4/diam"
+	"github.com/danievanzyl/go-diameter/v4/diam/avp"
+	"github.com/danievanzyl/go-diameter/v4/diam/datatype"
+	"github.com/danievanzyl/go-diameter/v4/diam/dict"
+	"github.com/danievanzyl/go-diameter/v4/diam/sm"
+	"github.com/danievanzyl/go-diameter/v4/examples/s6a_proxy/protos"
 	"golang.org/x/net/context"
 )
 
